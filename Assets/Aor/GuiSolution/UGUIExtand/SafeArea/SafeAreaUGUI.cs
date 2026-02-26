@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Threading;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Linq;
-using System.Threading;
+using UnityEngine;
 
-namespace Aor.GuiSolution
+namespace Aor.UI
 {
     [RequireComponent(typeof(RectTransform))]
     [ExecuteAlways]

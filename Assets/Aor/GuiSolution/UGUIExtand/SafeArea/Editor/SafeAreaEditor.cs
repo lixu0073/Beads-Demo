@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Aor.GuiSolution
+namespace Aor.UI
 {
     [CustomEditor(typeof(SafeAreaUGUI))]
     [CanEditMultipleObjects] // 支持多选编辑
