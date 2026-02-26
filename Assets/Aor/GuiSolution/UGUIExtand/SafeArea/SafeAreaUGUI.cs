@@ -15,7 +15,6 @@ namespace Aor.GuiSolution
         private Rect lastSafeArea;
         private Vector2Int lastRes;
 
-        [Header("适配开关")]
         public bool adjustTop = true;
         public bool adjustBottom = true;
         public bool adjustLeft = true;
