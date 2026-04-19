@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Aor.UI
 {
+    //屏幕分辨率变化时，UI适配安全区
     [RequireComponent(typeof(RectTransform))]
     [ExecuteAlways]
     public class SafeAreaUGUI : MonoBehaviour

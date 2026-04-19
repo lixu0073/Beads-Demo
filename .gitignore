@@ -23,6 +23,19 @@
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
+# ============================================
+# 自定义忽略 - 大文件/自动生成的资源
+# ============================================
+
+# 忽略超大字体资产（131 MB，超过 GitHub 限制）
+# 保留原始 .ttf/.otf 文件，SDF 资产可在本地自动生成
+Assets/Game/Res/Fonts/msyhl SDF.asset
+Assets/Game/Res/Fonts/msyhl SDF.asset.meta
+
+# ============================================
+# 自定义忽略 - 大文件/自动生成的资源
+# ============================================
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
